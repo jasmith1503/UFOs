@@ -13,5 +13,8 @@ This returned 4 different results which matched the search criteria.
 ![searchResults](resources/searchResults.jpg)
 
 ## Summary: 
-One drawback to the current design is there isn’t a way to clear the data entered inside the section “Filter Search” using a button. Each time the data must be cleared out of the respective search box. An improvement would be to add a button at the top of the section to “Clear All” 
-Another improve that could be implemented would be to add sorting options for each column. This would allow any column to sort the raw data or sort a filtered set of information. 
+There are a few design improvements which could be made to this page using some additional Javascript functionality. 
+•	For the “Enter Date” field, if this was converted into a Calendar box or allow for someone to enter in a leading 0 into the date that the field would correct for this. Currently if someone enters in “01/01/2010” the page will not return any results. This is because the dataset has the information stored as “1/1/2010”
+•	For the remaining fields an additional improvement if the data was converted to “lower case” regardless of what the user typed in would also prevent case mismatch issues. 
+•	A button or method to clear all the data entered inside the section “Filter Search”. Each time the data must be cleared out of the respective search box. An improvement would be to add a button at the top of the section to “Clear All”
+•	Another improve that could be implemented would be to add sorting options for each column. This would allow any column to sort the raw data or sort a filtered set of information. 
